@@ -11,3 +11,6 @@ add_executable(server_03 app_03/server.cpp app_03/util.cpp)
 
 add_executable(client_04 app_04/client.cpp app_04/util.cpp app_04/Epoll.cpp app_04/InetAddress.cpp app_04/Socket.cpp)
 add_executable(server_04 app_04/server.cpp app_04/util.cpp app_04/Epoll.cpp app_04/InetAddress.cpp app_04/Socket.cpp)
+
+add_executable(client_05 app_05/client.cpp app_05/util.cpp app_05/Epoll.cpp app_05/InetAddress.cpp app_05/Socket.cpp app_05/Channel.cpp)
+add_executable(server_05 app_05/server.cpp app_05/util.cpp app_05/Epoll.cpp app_05/InetAddress.cpp app_05/Socket.cpp app_05/Channel.cpp)
